@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:ns_event_manager/Resources/Private/Language/locallang.xlf" date="2025-07-30T20:36:36Z" product-name="ns_event_manager">
+		<header/>
+		<body>
+			<trans-unit id="tx_nseventmanager_domain_model_event" resname="tx_nseventmanager_domain_model_event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.description" resname="tx_nseventmanager_domain_model_event.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.title" resname="tx_nseventmanager_domain_model_event.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.title.description" resname="tx_nseventmanager_domain_model_event.title.description">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.description.description" resname="tx_nseventmanager_domain_model_event.description.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.organizer_name" resname="tx_nseventmanager_domain_model_event.organizer_name">
+				<source>Organizer Name</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.organizer_name.description" resname="tx_nseventmanager_domain_model_event.organizer_name.description">
+				<source>Organizer Name</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.mode" resname="tx_nseventmanager_domain_model_event.mode">
+				<source>Mode</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.mode.description" resname="tx_nseventmanager_domain_model_event.mode.description">
+				<source>Mode</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.location" resname="tx_nseventmanager_domain_model_event.location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_event.location.description" resname="tx_nseventmanager_domain_model_event.location.description">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location" resname="tx_nseventmanager_domain_model_location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.description" resname="tx_nseventmanager_domain_model_location.description">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.name" resname="tx_nseventmanager_domain_model_location.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.name.description" resname="tx_nseventmanager_domain_model_location.name.description">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.city" resname="tx_nseventmanager_domain_model_location.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.city.description" resname="tx_nseventmanager_domain_model_location.city.description">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.zip_code" resname="tx_nseventmanager_domain_model_location.zip_code">
+				<source>Zip Code</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.zip_code.description" resname="tx_nseventmanager_domain_model_location.zip_code.description">
+				<source>Zip Code</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.capacity" resname="tx_nseventmanager_domain_model_location.capacity">
+				<source>Capacity</source>
+			</trans-unit>
+			<trans-unit id="tx_nseventmanager_domain_model_location.capacity.description" resname="tx_nseventmanager_domain_model_location.capacity.description">
+				<source>Capacity</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

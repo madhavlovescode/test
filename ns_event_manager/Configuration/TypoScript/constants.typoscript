@@ -1,0 +1,28 @@
+plugin.tx_nseventmanager_nseventcrud {
+    view {
+        # cat=plugin.tx_nseventmanager_nseventcrud/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:ns_event_manager/Resources/Private/Templates/
+        # cat=plugin.tx_nseventmanager_nseventcrud/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:ns_event_manager/Resources/Private/Partials/
+        # cat=plugin.tx_nseventmanager_nseventcrud/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:ns_event_manager/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_nseventmanager_nseventcrud//a; type=string; label=Default storage PID
+        storagePid = 
+    }
+}
+plugin.tx_nseventmanager_eventshow {
+    view {
+        # cat=plugin.tx_nseventmanager_eventshow/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:ns_event_manager/Resources/Private/Templates/
+        # cat=plugin.tx_nseventmanager_eventshow/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:ns_event_manager/Resources/Private/Partials/
+        # cat=plugin.tx_nseventmanager_eventshow/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:ns_event_manager/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_nseventmanager_eventshow//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
