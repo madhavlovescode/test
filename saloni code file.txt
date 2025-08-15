@@ -1,0 +1,92 @@
+12:15 to 4:30 ->image upload
+
+4:40 pm ->image upload from create event
+
+
+
+  'file' => [
+//     'exclude' => true,
+//     'label' => '',
+//     'description' => '',
+//     'config' => [
+//         'type' => 'inline',
+//         'foreign_table' => 'sys_file_reference',
+//         'foreign_field' => 'uid_foreign',
+//         'foreign_sortby' => 'sorting_foreign',
+//         'foreign_table_field' => 'tablenames',
+//         'foreign_match_fields' => [
+//             'fieldname' => 'file',
+//         ],
+//         'foreign_label' => 'uid_local',
+//         'foreign_selector' => 'uid_local',
+//         'foreign_selector_fieldTcaOverride' => [
+//             'config' => [
+//                 'appearance' => [
+//                     'elementBrowserAllowed' => 'pdf',
+//                     'elementBrowserType' => 'file'
+//                 ],
+//             ],
+//         ],
+//         'overrideChildTca' => [
+//             'types' => [
+//                 '0' => [
+//                     'showitem' => '
+//                         --palette--;;imageoverlayPalette,
+//                         --palette--;;filePalette'
+//                 ],
+//             ],
+//         ],
+//         'appearance' => [
+//             'createNewRelationLinkTitle' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:media.addFileReference',
+//             'fileUploadAllowed' => true,
+//         ],
+//         'filter' => [
+//             'allowedFileExtensions' => 'image'
+//         ],
+//         'maxitems' => 1,
+//     ],
+// ],
+
+
+
+111111111111111111111111
+
+
+ 'file' => [
+    'exclude' => true,
+    'label' =>'LLL:EXT:ns_courses/Resources/Private/Language/locallang_db.xlf:tx_nscourses_domain_model_course.image''sys_file_reference',
+ 'LLL:EXT:ns_courses/Resources/Private/Language/locallang_db.xlf:tx_nscourses_domain_model_course.image.description'd' => 'tablenames',
+        'foreign_match_fields' => [
+            'fieldname' => 'file',
+        ],
+        'foreign_label' => 'uid_local',
+        'foreign_selector' => 'uid_local',
+        'foreign_selector_fieldTcaOverride' => [
+            'config' => [
+                'appearance' => [
+                    'elementBrowserAllowed' => 'pdf',
+                    'elementBrowserType' => 'file'
+                ],
+            ],
+        ],
+        'overrideChildTca' => [
+            'types' => [
+                '0' => [
+                    'showitem' => '
+                        --palette--;;imageoverlayPalette,
+                        --palette--;;filePalette'
+                ],
+            ],	
+        ],
+        'appearance' => [
+            'createNewRelationLinkTitle' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:media.addFileReference',
+            'fileUploadAllowed' => true,
+        ],
+        'filter' => [
+            'allowedFileExtensions' => 'file'
+        ],
+        'maxitems' => 1,
+    ],
+],
+
+
